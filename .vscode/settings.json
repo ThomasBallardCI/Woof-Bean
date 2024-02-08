@@ -26,5 +26,13 @@
    "editor.defaultFormatter": "HookyQR.beautify",
    "[python]": {
       "editor.defaultFormatter": "charliermarsh.ruff"
-   }
+   },
+   "html.format.unformatted": "wbr",
+   "grammarly.files.include": [
+      "**/README.md",
+      "**/readme.md",
+      "**/CONTRIBUTING.md",
+      "chapter/*.md",
+      "**README.md"
+  ],
 }
