@@ -2,27 +2,6 @@ html {
     height: 100%;
 }
 
-.text-custom {
-    color: #FAB49A;
-    text-shadow: 1px 1px 10px #000;
-}
-
-.bg-custom {
-    background-color: #3C3C3C;
-}
-
-.btn-custom {
-    background-color: #FAB49A;
-}
-
-/* .btn-custom:hover,
-.btn-custom:focus,
-.btn-custom:active {
-    background: #3C3C3C;
-    color: #FAB49A;
-    border: #FAB49A 1px solid;
-} */
-
 body {
     background: url('/media/backgroundimage.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -99,4 +78,81 @@ body {
     .header-container {
         padding-top: 164px;
     }
+}
+
+
+/* my custom styling */
+.header-text-custom,
+.text-logo {
+    color: #FAB49A;
+}
+
+.header-text-custom:hover,
+.header-text-custom:active,
+.header-text-custom:focus {
+    text-shadow: 1px 1px 10px #000;
+    color: #FAB49A;
+}
+
+.text-custom {
+    color: #FAB49A;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.text-logo {
+    margin-left: 10px;
+}
+
+.bg-custom {
+    background-color: #3C3C3C;
+}
+
+.btn-custom {
+    background-color: #FAB49A;
+    color: #3C3C3C;
+}
+
+.btn-custom-search {
+    background-color: #FAB49A;
+    color: #3C3C3C;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background: #3C3C3C;
+    color: #FAB49A;
+    box-shadow: 0 0 0 2px #FAB49A;
+}
+
+.btn-custom-search:hover,
+.btn-custom-search:focus,
+.btn-custom-search:active {
+    background: #3C3C3C;
+    color: #FAB49A;
+    border: 2px solid #FAB49A;
+}
+
+/* .search-bar:focus {
+    outline: 1px solid #FAB49A;
+    border: 1px solid #FAB49A;
+} */
+
+.search-bar {
+    border: 2px solid #FAB49A;
+}
+
+.dropdown-menu {
+    background-color: #FAB49A;
+    color: #3C3C3C;
+}
+
+.input-group-append {
+    right: 0;
+    z-index: 9999;
 }

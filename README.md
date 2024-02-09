@@ -1,3 +1,5 @@
+Search bar icon inside input on the right helped by Slack London community
+
 ## User Stories
 
 ### As A/An Shopper
