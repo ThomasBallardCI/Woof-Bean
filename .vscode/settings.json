@@ -25,7 +25,7 @@
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify",
    "[python]": {
-      "editor.defaultFormatter": "charliermarsh.ruff"
+      "editor.defaultFormatter": "ms-python.black-formatter"
    },
    "html.format.unformatted": "wbr",
    "grammarly.files.include": [
