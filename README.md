@@ -39,3 +39,20 @@ Search bar icon inside input on the right helped by Slack London community
     | Easily recover my password in case I forget it | Recover access to my account |
     | Receive an email confirmation after registering | Verfify that my account registration was successful |
     | Have a personalized user profile | View my personal order history, order confirmations<br> and save my personal information |
+
+
+# Products Model
+"pk" - Primary key
+"model" = products.product
+"fields" = 
+    "category" - Product category ForeignKey
+    "sku" - product sku
+    "name" - product name
+    "description" - product description
+    "price" - product price
+    "rating" - product rating
+    "image" - product image
+
+# Category Model
+    "name" - category name PrimaryKey
+    "friendly_name" - friendly name for front end
