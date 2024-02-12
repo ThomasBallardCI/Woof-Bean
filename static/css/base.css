@@ -49,17 +49,17 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #000;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid black;
 }
 
 /* my custom styling */
 .header-text-custom,
 .text-logo {
-    color: #FAB49A;
+    color: #FAB49A !important;
 }
 
 .header-text-custom:hover,
@@ -85,6 +85,15 @@ body {
 
 .bg-custom {
     background-color: #3C3C3C;
+}
+
+.bg-offer {
+    background-color: #FAB49A;
+}
+
+.offer-font {
+    color: #3C3C3C;
+    text-transform: uppercase;
 }
 
 .btn-custom {
@@ -122,10 +131,19 @@ body {
     color: #3C3C3C;
 }
 
+.mobile-search-dropdown {
+    background-color: #3C3C3C;
+    color: #3C3C3C;
+}
 .input-group-append {
     right: 0;
     z-index: 9999;
 }
+
+/* .navbar-toggler-icon,
+.navbar-toggler {
+    color: #FAB49A !important;
+} */
 
 /* -------------------------------- Media Queries */
 
